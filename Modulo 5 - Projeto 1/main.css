@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+* {
+    font-family: "Varela Round", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+}  
+/*Genshin letreiro*/
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.container img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-image: url('./images/genshin-impact-scenery-uhdpaper.com-4K-3.2969.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.lista-menu {
+    text-align: center;
+}
+
+.container-menu {
+    padding: 20px 0;
+    background-color: rgba(153, 72, 240, 0.866);
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-inline-start: 10px;
+    margin-inline-end: 10px;
+}
+
+.container-menu li {
+    display: inline;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+.container-menu li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.lista-menu a:hover {
+    color: rgb(210, 203, 222);
+}
+
+.container-personagens img {
+    margin-top: 20px;
+    max-height: 100px;
+}
+
+.container-personagens li {
+    display: inline;
+    margin-left: 20px;
+    border: 2px solid rgba(143, 40, 199, 0.685);
+    border-radius: 15px;
+}
+
+.lista-personagens {
+    list-style-type: none; /* Remove os marcadores da lista */
+    padding: 0; /* Remove o padding padrão */
+    margin: 0; /* Remove a margem padrão */
+    display: flex; /* Exibe os itens da lista em linha */
+    flex-wrap: wrap; /* Permite que os itens da lista quebrem a linha se necessário */
+    justify-content: center; /* Centraliza os itens na linha */
+}
+
+.lista-personagens li {
+    margin: 10px; /* Espaçamento entre os itens da lista */
+    text-align: center; /* Centraliza o texto e a imagem dentro de cada item */
+}
+
+.lista-personagens a {
+    display: block; /* Faz com que o link se comporte como um bloco, ocupando toda a largura do item da lista */
+    text-decoration: none; /* Remove o sublinhado do link */
+    color: rgb(215, 215, 215); /* Herda a cor do texto do item da lista */
+}
+
+.lista-personagens img {
+    display: grid; /* Faz com que a imagem seja exibida como um bloco */
+    margin: 0 auto; /* Centraliza a imagem horizontalmente dentro do item da lista */
+    max-width: 100px; /* Define um tamanho máximo para as imagens (ajuste conforme necessário) */
+    transition: transform 0.3s ease;
+}
+
+.lista-personagens p {
+    margin: 5px 0 0; /* Adiciona um pouco de espaço em cima do texto */
+}
+
+.lista-personagens li a:hover {
+    color: rgb(24, 24, 24);
+    transform: scale(1.1);
+}
+
+.container-personagens {
+    margin-top: 10px;
+    margin-inline-start: 10px;
+    margin-inline-end: 10px;
+    background-color: rgba(89, 27, 148, 0.89);
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.container-armas img:hover {
+    color: rgb(210, 203, 222);
+    transform: scale(1.1);
+}
+
+.lista-armas {
+    width: 100%;
+    height: 100%;
+    list-style-type: none; /* Remove os marcadores da lista */
+    display: flex; /* Exibe os itens da lista em linha */
+    flex-wrap: wrap; /* Permite que os itens da lista quebrem a linha se necessário */
+    justify-content: center; /* Centraliza os itens na linha */
+}
+
+.lista-armas li {
+    margin: 10px; /* Espaçamento entre os itens da lista */
+    text-align: center; /* Centraliza o texto e a imagem dentro de cada item */
+}
+
+.lista-armas a {
+    display: block; /* Faz com que o link se comporte como um bloco, ocupando toda a largura do item da lista */
+    text-decoration: none; /* Remove o sublinhado do link */
+    color: rgb(215, 215, 215); /* Herda a cor do texto do item da lista */
+    max-width: 100px;
+}
+
+.lista-armas img {
+    display: grid;
+    margin: 0 auto;
+    max-width: 100px; 
+    transition: transform 0.3s ease;
+}
+
+.lista-armas p {
+    margin: 5px 0 0;
+}
+
+.lista-armas li a:hover {
+    color: rgb(24, 24, 24);
+    transform: scale(1.1);
+}
+
+.container-armas {
+    margin-top: 10px;
+    margin-inline-start: 10px;
+    margin-inline-end: 10px;
+    background-color: rgba(89, 27, 148, 0.89);
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.container-armas li {
+    display: grid;
+    margin-left: 10px;
+    border: 2px solid rgba(143, 40, 199, 0.685);
+    border-radius: 15px;
+}
+
+.container-armas img {
+    max-height: 100px;
+    max-width: 90px;
+}
